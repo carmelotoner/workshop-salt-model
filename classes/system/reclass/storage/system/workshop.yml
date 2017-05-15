@@ -62,7 +62,7 @@ parameters:
             opencontrail_compute_address: 10.101.0.75
             opencontrail_compute_gateway: 10.101.0.1
             opencontrail_compute_iface: eth1
-        cmp02.workshop.cloudlab.cz:
+        cmp02.ftoma.mg:
           name: cmp02
           domain: ftoma.mg
           classes:
@@ -97,7 +97,7 @@ parameters:
           params:
             salt_master_host: ${_param:reclass_config_master}
             single_address: 10.101.0.77
-        mtr01.workshop.cloudlab.cz:
+        mtr01.ftoma.mg:
           name: mtr01
           domain: ftoma.mg
           classes:
