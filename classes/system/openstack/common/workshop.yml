@@ -14,7 +14,7 @@ parameters:
     collectd_backend_carbon_host: mon01
     collectd_backend_carbon_port: 2023
     opencontrail_version: 3.0
-    opencontrail_compute_dns: 8.8.8.8
+    opencontrail_compute_dns: 10.101.0.8
     opencontrail_stats_password: voiture
     galera_server_cluster_name: openstack_cluster
     galera_server_maintenance_password: voiture
@@ -31,23 +31,23 @@ parameters:
     rabbitmq_admin_password: voiture
     rabbitmq_openstack_password: voiture
     rabbitmq_cold_password: voiture
-    glance_version: newton
+    glance_version: kilo
     glance_service_host: ${_param:cluster_vip_address}
-    keystone_version: newton
+    keystone_version: kilo
     keystone_service_host: ${_param:cluster_vip_address}
-    heat_version: newton
+    heat_version: kilo
     heat_service_host: ${_param:cluster_vip_address}
     heat_domain_admin_password: voiture
-    ceilometer_version: newton
+    ceilometer_version: kilo
     ceilometer_service_host: 10.101.0.78
-    cinder_version: newton
+    cinder_version: kilo
     cinder_service_host: ${_param:cluster_vip_address}
     ceilometer_graphite_publisher_host: 10.101.0.77
     ceilometer_graphite_publisher_port: 2013
-    nova_version: newton
+    nova_version: kilo
     nova_service_host: ${_param:cluster_vip_address}
     nova_vncproxy_url: http://${_param:cluster_vip_address}:8060
-    neutron_version: newton
+    neutron_version: kilo
     neutron_service_host: ${_param:cluster_vip_address}
     glusterfs_service_host: ${_param:cluster_vip_address}
     mysql_admin_user: root
@@ -69,7 +69,7 @@ parameters:
     keystone_neutron_password: voiture
     keystone_nova_password: voiture
     ceilometer_secret_key: voiture
-    horizon_version: newton
+    horizon_version: liberty
     horizon_secret_key: opaesee8Que2yahJoh9fo0eefo1Aeyo6ahyei8zeiboh3aeth5loth7ieNa5xi5e
     horizon_identity_host: ${_param:cluster_vip_address}
     horizon_identity_encryption: none
