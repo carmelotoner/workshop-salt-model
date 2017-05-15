@@ -6,13 +6,13 @@ classes:
 - service.supervisor.server.single
 parameters:
   _param:
-    graphite_secret_key: secret
-    postgresql_graphite_password: password
+    graphite_secret_key: voiture
+    postgresql_graphite_password: voiture
     apache2_site_graphite_host: ${_param:single_address}
-    rabbitmq_graphite_password: password
-    rabbitmq_monitor_password: password
-    rabbitmq_admin_password: password
-    rabbitmq_secret_key: password
+    rabbitmq_graphite_password: voiture
+    rabbitmq_monitor_password: voiture
+    rabbitmq_admin_password: voiture
+    rabbitmq_secret_key: voiture
   apache:
     server:
       modules:
@@ -29,7 +29,7 @@ parameters:
       database:
         graphite:
           encoding: UTF8
-          locale: cs_CZ
+          locale: fr_FR
           users:
           - name: graphite
             password: ${_param:postgresql_graphite_password}
