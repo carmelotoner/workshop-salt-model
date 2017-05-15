@@ -22,7 +22,7 @@ parameters:
       database:
         billometer:
           encoding: UTF8
-          locale: cs_CZ
+          locale: fr_FR
           users:
           - name: billometer
             createdb: true
