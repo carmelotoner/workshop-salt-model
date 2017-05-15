@@ -9,14 +9,14 @@ parameters:
   _param:
     billometer_secret_key: billometer
     keystone_billometer_address: localhost
-    keystone_billometer_password: password
-    postgresql_billometer_password: password
-    postgresql_graphite_password: password
+    keystone_billometer_password: voiture
+    postgresql_billometer_password: voiture
+    postgresql_graphite_password: voiture
     rabbitmq_admin_name: admin
-    rabbitmq_admin_password: password
-    rabbitmq_secret_key: rabbitmq
-    rabbitmq_billometer_password: password
-    rabbitmq_graphite_password: password
+    rabbitmq_admin_password: voiture
+    rabbitmq_secret_key: voiture
+    rabbitmq_billometer_password: voiture
+    rabbitmq_graphite_password: voiture
   postgresql:
     server:
       database:
